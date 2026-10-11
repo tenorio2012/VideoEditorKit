@@ -1,23 +1,15 @@
-# Example App
+# Fernando Video AI
 
-`Example/VideoEditor` is the integration app for `VideoEditorKit`.
+Aplicación privada de edición de vídeo para iPhone basada en VideoEditorKit.
 
-It demonstrates:
+## Objetivo V1
+- Importar vídeo desde Fotos
+- Recortar y editar
+- Formato vertical para redes sociales
+- Exportar y compartir
+- Guardar proyectos
 
-- importing videos with `PhotosPicker`
-- saving projects locally
-- keeping original, saved edited, and exported videos as separate files
-- reopening saved projects with `VideoEditingConfiguration`
-- sharing exported videos
-
-Open:
-
-```text
-Example/VideoEditor.xcworkspace
-```
-
-Validate with:
-
-```bash
-scripts/test-ios.sh
-```
+## Siguiente fase
+- Subtítulos automáticos
+- Eliminación de silencios
+- Edición asistida por IA
