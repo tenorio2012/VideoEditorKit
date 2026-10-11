@@ -10,15 +10,15 @@ enum ExampleStrings {
     }
 
     static var close: String {
-        localized("common.close", defaultValue: "Close")
+        localized("common.close", defaultValue: "Cerrar")
     }
 
     static var editorTitle: String {
-        localized("example.editor.title", defaultValue: "Editor")
+        localized("example.editor.title", defaultValue: "Fernando Video AI")
     }
 
     static var persistenceErrorTitle: String {
-        localized("example.error.persistence.title", defaultValue: "Unable to Save Project")
+        localized("example.error.persistence.title", defaultValue: "No se ha podido guardar el proyecto")
     }
 
     static var missingProjectOriginalVideo: String {
@@ -57,29 +57,29 @@ enum ExampleStrings {
     }
 
     static var projectEdit: String {
-        localized("example.project.action.edit", defaultValue: "Edit")
+        localized("example.project.action.edit", defaultValue: "Editar")
     }
 
     static var projectPreview: String {
-        localized("example.project.action.preview", defaultValue: "Preview")
+        localized("example.project.action.preview", defaultValue: "Vista previa")
     }
 
     static var projectOpen: String {
-        localized("example.project.action.open", defaultValue: "Open")
+        localized("example.project.action.open", defaultValue: "Abrir")
     }
 
     static var projectShare: String {
-        localized("example.project.action.share", defaultValue: "Share")
+        localized("example.project.action.share", defaultValue: "Compartir")
     }
 
     static var projectDelete: String {
-        localized("example.project.action.delete", defaultValue: "Delete")
+        localized("example.project.action.delete", defaultValue: "Eliminar")
     }
 
     static var homeHeroTitle: String {
         localized(
             "example.home.hero.title",
-            defaultValue: "Edit, export, and revisit your clips."
+            defaultValue: "Edita tus vídeos rápido y sin complicaciones."
         )
     }
 
@@ -100,7 +100,7 @@ enum ExampleStrings {
     }
 
     static var homeImportTitle: String {
-        localized("example.home.import.title", defaultValue: "Choose a Video")
+        localized("example.home.import.title", defaultValue: "Elegir vídeo")
     }
 
     static var homeImportMessage: String {
@@ -111,11 +111,11 @@ enum ExampleStrings {
     }
 
     static var homeProjectsTitle: String {
-        localized("example.home.projects.title", defaultValue: "Edited Videos")
+        localized("example.home.projects.title", defaultValue: "Tus proyectos")
     }
 
     static var homeEmptyTitle: String {
-        localized("example.home.empty.title", defaultValue: "No saved videos yet")
+        localized("example.home.empty.title", defaultValue: "Todavía no hay proyectos")
     }
 
     static var homeEmptyMessage: String {
